@@ -4,7 +4,6 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
 class OperacionesMatematicasServiceTest {
@@ -17,7 +16,7 @@ class OperacionesMatematicasServiceTest {
 		//Arrange
 		Integer n1=6;
 		Integer n2=4;
-		Integer expected=6;
+		Integer expected=10;
 		Integer resultado=0;
 		
 		//Act
